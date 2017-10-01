@@ -37,6 +37,9 @@ function tofloat($num) {
     );
 }  
 
+// Desactivamos los posibles warning para que no se envien los headers
+error_reporting(0);
+
 // Recup code source HTML de la page web
 $url = "https://www.labanquepostale.fr/transversal/opcvm/FR0010431304.0.html";
 $html = file_get_contents($url);	
