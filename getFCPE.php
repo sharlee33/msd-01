@@ -1,6 +1,6 @@
 <?php
 
-/*
+/* OUTPUT example
 <div class="block size1on2" id="opcvm_sicav">
 	<div class="head">
 		<img src='/etc/designs/lbp/opcvm/img/long/fcpe.png' alt='FCPE'/>
