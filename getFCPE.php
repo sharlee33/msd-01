@@ -41,9 +41,22 @@ function tofloat($num) {
 error_reporting(0);
 
 // Recup code source HTML de la page web
-$url = "https://www.labanquepostale.fr/transversal/opcvm/FR0010431304.0.html";
+// ACTIONS 30 EUROPE
+$url30Eur = "https://www.labanquepostale.fr/transversal/opcvm/FR0010431304.0.html";
+// ACTIONS 70 SOLIDAIRE
+$url70Sol = "https://www.labanquepostale.fr/transversal/opcvm/FR0011057363.0.html";
+// init url suivant param
+switch ($_GET['action']) {
+    case "30Eur":
+        $url =  $url30Eur;
+        break;
+    case "70Sol":
+        $url =  $url70Sol;
+        break;
+    default:
+        echo "unknown action";
+}
 $html = file_get_contents($url);	
-//echo $html; echo "***************************************************";
 
 // Load content
 $dom = new DOMDocument;
