@@ -19,6 +19,29 @@
 		</ul>
 	</div>
 </div>
+
+201712 :
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+	    <div class="opcvm-summary">
+	      <p class="opcvm-summary__date">
+			Au 21 DÉCEMBRE 2017
+	      </p>
+	      <p class="opcvm-summary__value">
+	        <span>Actif net global</span>
+	        <span>
+	            113,51 M€
+	        </span>
+	        </p>
+	      <p class="opcvm-summary__value">
+	        <span>Valeur liquidative</span>
+	        <span>
+	            15,61 €
+	        </span>
+	      </p>
+	    </div>
+	</div>
+--> à modifier
 */
 
 function tofloat($num) {
